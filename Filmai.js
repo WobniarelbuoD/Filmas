@@ -16,7 +16,7 @@ let Page = 1
 let Switch = false
 
 const useData = async () => {
-    const resp = await getData('http://www.omdbapi.com/?apikey=c8eacdb8&s=Batman&page='+Page)
+    const resp = await getData('https://www.omdbapi.com/?apikey=c8eacdb8&s=Batman&page='+Page)
     const data = resp.Search
     console.log(data)
 
